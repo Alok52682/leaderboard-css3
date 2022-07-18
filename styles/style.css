@@ -190,7 +190,11 @@ hr {
         justify-items: center;
     }
 
-    .blogs,
+    .blogs {
+        grid-template-columns: none;
+        justify-items: start;
+    }
+
     .courses {
         grid-template-columns: none;
     }
